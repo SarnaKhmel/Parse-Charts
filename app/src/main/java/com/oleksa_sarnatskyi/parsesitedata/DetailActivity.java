@@ -40,6 +40,7 @@ public class DetailActivity extends AppCompatActivity {
         content.execute();
 
         configurateAnalyseButton();
+
     }
 
     private void  configurateAnalyseButton()

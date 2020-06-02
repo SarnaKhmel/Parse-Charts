@@ -11,12 +11,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.oleksa_sarnatskyi.parsesitedata.PieChartActivity"></activity>
-        <activity android:name="com.oleksa_sarnatskyi.parsesitedata.RadianChartActivity" />
-        <activity android:name="com.oleksa_sarnatskyi.parsesitedata.BarChartActivity" />
-        <activity android:name="com.oleksa_sarnatskyi.parsesitedata.AnalyseActivity" />
-        <activity android:name="com.oleksa_sarnatskyi.parsesitedata.DetailActivity" />
-        <activity android:name="com.oleksa_sarnatskyi.parsesitedata.MainActivity">
+        <activity android:name=".Main2Activity"></activity>
+        <activity android:name=".PieChartActivity" />
+        <activity android:name=".RadianChartActivity" />
+        <activity android:name=".BarChartActivity" />
+        <activity android:name=".AnalyseActivity" />
+        <activity android:name=".DetailActivity" />
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
